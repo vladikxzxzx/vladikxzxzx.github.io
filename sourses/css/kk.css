@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100% ;
+    background: linear-gradient(150deg, #f6e204 13%, #ffbb00 53%);
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-weight: 1000;
+}
+
+header img {
+    width: 45px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section p {
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media(max-width:1000px) {
+    .emodji {
+        display: none;
+    }
+}
+
+.ft {
+    background: linear-gradient(0deg, #f1b309 0%, #fbff0f 100%);
+    font-style: italic;
+    margin-top: 50px;
+    padding: 5px;
+}
+.ft a img{
+    width: 70px;
+}
+.ft a{
+    padding-right: 20px;
+}
+.card{
+    background: linear-gradient(350deg, #fd8802 0%, #ffbb00 87%);
+}
+.card img{
+    height: 200px;
+}
+video {
+    width: 100%;
+}
+iframe {
+    width: 100%;
+}
